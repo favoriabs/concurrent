@@ -8,4 +8,6 @@
 		public function findAll();
 		public function findById($countryid);
 		public function removeCountry($countryid);
+		public function currencyNameFrom($request);
+		public function currencyNameTo($request);
 	}
