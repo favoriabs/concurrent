@@ -23,6 +23,10 @@ Route::get('/home', 'HomeController@index');
 // 	return view('index');
 // });
 
-Route::get('/index', 'CountryController@dropDown');
+Route::get('/landing', 'CountryController@dropDown');
 
 Route::post('/convert', 'CountryController@convertValues')->name('convert');
+
+// Route::get('/landing', function () {
+// 	return view('landingPage');
+// });
